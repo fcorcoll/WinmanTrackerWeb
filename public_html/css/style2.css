@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-feb-2018, 13:48:25
+    Author     : Francesc Corcoll
+*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body{
+
+    background-image: url(../img/fondo_login.jpg)
+    
+
+}
+#Punctuations{
+    background-color:#5cb85c;
+    min-height: 500px;
+    opacity: 0.90;
+    margin-top: 50px;
+    height: 800px;
+    width: 700px;
+    vertical-align: middle;
+    text-align: center; 
+    position: relative;
+    border: 3px solid #ffbf00;
+}
+
+#Title{
+    margin-top: 70px;
+    font-family: initial;
+    font-size:34px;
+    color: white;
+
+}
+
+.right{
+
+    position: absolute;
+    top:15%;
+    left: -120px;
+}
+.left{
+
+    position: absolute;
+    top:400px;
+   right:-80px;
+}
+.videos{
+
+    position: absolute;
+    top:700px;
+    left: 10%;
+}
+.equipos{
+    position: absolute;
+     //left: 20%;
+       top: 20px;
+    width: 500px;
+}
+
+#textAtributtes{
+    color: white;
+    text-shadow: 2px 2px 5px blue;
+    font-size: 140%;
+}
+
+
+
+
+
+    

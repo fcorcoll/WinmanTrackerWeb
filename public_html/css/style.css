@@ -1,0 +1,64 @@
+
+/* 
+    Created on : 08-feb-2018, 13:48:25
+    Author     : Francesc Corcoll
+*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body{
+    background-image: url(../img/fondo.jpg)
+    
+}
+#login-name{
+    font-size: 65px;
+    font-family: Arabic typesetting;
+    border-bottom-style: ridge;
+    color:white;
+}
+#loginfrm{
+    background-color: #0d0d0d;
+    min-height: 500px;
+    opacity: 0.85;
+    padding: 40px 80px 40px 80px;
+    box-shadow: 0px 0px 15px 10px #5cb85c;
+  
+}
+.user1{
+    font-family: Arabic typesetting;
+    font-size:23px;
+    color: white;
+       
+}
+.Password1{
+    font-family: Arabic typesetting;
+    font-size:23px;
+    color: white;
+}
+#icon{
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color:white;
+}
+#email{
+    border-radius:0px;
+    height: 40px;
+}
+#password{
+    border-radius:0px;
+    height: 40px;
+}
+#login{
+    with:50%;
+    border-radius: 0px;
+    heigt:40px;
+    font-size: 17px;
+    
+}
+#reset{
+    with:50%;
+    border-radius: 0px;
+    heigt:40px;
+    font-size: 17px;
+        
+    
+}
