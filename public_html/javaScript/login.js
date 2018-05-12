@@ -16,7 +16,7 @@ $(document).ready(function()
         }
         else 
         {
-            $.post("http://localhost/ProyectoWinmanWeb/Winman/public_html/login.php",
+            $.post("http://localhost/ProyectoWinmanWeb/public_html/login.php",
             { 
                 email:email, password:password
                 
