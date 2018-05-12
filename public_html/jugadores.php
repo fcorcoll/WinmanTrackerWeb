@@ -6,8 +6,8 @@ function jugadores($id)
     //echo "Id: " . $id;
     
     $consulta = "select vistajugador.nombre, vistajugador.apellido, "
-            . "vistajugador.fichaje, vistajugador.dorsal, vistajugador.posicion, "
-            . "vistajugador.nivel from vistajugador inner join jugador_usuario "
+            . "vistajugador.posicion, vistajugador.nivel, vistajugador.fichaje, "
+            . "vistajugador.dorsal from vistajugador inner join jugador_usuario "
             . "on vistajugador.ID = jugador_usuario.id_jugador "
             . "where jugador_usuario.id_usuario =". $id;
     
